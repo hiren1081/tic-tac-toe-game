@@ -201,8 +201,8 @@ class App extends Component {
        this.setState({stetus: [csign1]})
      }else if (csign2 === csign5 && csign5 === csign8) {
       this.setState({stetus: [csign2]})
-     }else if(csign3 === csign6 && csign6 === csign9){
-      this.setState({stetus: [csign3]})
+     }else if(csign1 === csign2 && csign2 === csign3){
+      this.setState({stetus: [csign1]})
      }else if(csign3 === csign6 && csign6 === csign9){
       this.setState({stetus: [csign3]})
      }else if(csign4 === csign5 && csign5 === csign6){
@@ -221,6 +221,7 @@ class App extends Component {
   render(){
     return(
         <div className="App holebord">
+        
         <div>
         <Squre1 onclick={()=>{this.saveSign1(); this.game()}} sign={this.state.sign1} clicked={this.state.clicked1}/>
         <Squre2 onclick={()=>{this.saveSign2(); this.game()}} sign={this.state.sign2} clicked={this.state.clicked2}/>

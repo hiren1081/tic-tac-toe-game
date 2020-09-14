@@ -5,7 +5,7 @@ export default class Squre5 extends Component {
     return (
       <div>
         {
-          this.props.clicked ? <button className="squre">{this.props.sign}</button> :<button className="squre" onClick={this.props.onclick}>{this.props.sign}</button> 
+          this.props.clicked ? <button className="squre"><h1>{this.props.sign}</h1></button> :<button className="squre" onClick={this.props.onclick}>{this.props.sign}</button> 
         }
       </div>
     )
