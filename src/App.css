@@ -1,0 +1,17 @@
+.App {
+ text-align: center;
+ display: flex;
+}
+.squre{
+  width:100px;
+  height: 100px;
+  margin-right: 2px;
+}
+.bord{
+  display: flex;
+  margin-bottom: auto;
+}
+.holebord{
+ margin-top: 10px;
+ margin-left: 400px;  
+}
